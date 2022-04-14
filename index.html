@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tres en raya</title>
+    <meta name="author" content="Jadmir Ignacio Vicente Sifuentes"/>
+
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<main class="mainContent">
+    <form id="initGameForm" class="playerForm">
+        <input type="text" id="playerNameInput">
+        <button type="submit" class="main_button">Jugar!</button>
+    </form>
+    <div class="player" id="playerContent">
+        Player: <span id="playerName"></span>
+        <button class="main_button" id="exitButton">Volver a Jugar</button>
+    </div>
+
+    <div class="game">
+        <div id="gameBoard" class="gameContent">
+        </div>
+
+        <div class="modalContainer" id="modal">
+            <div class="modalContent">
+                <p class="title" id="modalTitle"></p>
+                <p class="subtitle" id="modalSubtitle"></p>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/turns.js"></script>
+</body>
+</html>
